@@ -1,1 +1,19 @@
+.flex-item{
+    background-color:pink;
+    border: 2px dotted blanchedalmond;
+    width: 80px;
+    height: 80px; 
+}
 
+/*OUTER DIV ("parent")*/
+
+.flex-container{
+    border: 2px solid blanchedalmond;
+    width: 80%;
+    height: 60%;
+    
+    
+    display: flex;
+    justify-content: space-between;
+
+}
